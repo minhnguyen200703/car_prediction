@@ -42,13 +42,16 @@ async def scoring_endpoint(car: CarModel):
     input_data['gearbox'] = input_data['gearbox'].str.strip().str.upper()
     input_data['fuel'] = input_data['fuel'].str.strip().str.lower()
 
-    # Perform one-hot encoding for categorical features
-    input_data = pd.get_dummies(input_data, columns=categorical_cols, drop_first=True)
+    # Retain only existing columns from `categorical_cols`
+    valid_categorical_cols = [col for col in categorical_cols if col in input_data.columns]
+
+    # Perform one-hot encoding for valid categorical features
+    input_data = pd.get_dummies(input_data, columns=valid_categorical_cols, drop_first=True)
 
     # Ensure all dummy columns exist in the input data
     for col in dummy_cols:
         if col not in input_data.columns:
-            input_data[col] = False
+            input_data[col] = 0  # Default value for missing columns
 
     # Reorder columns to match training data
     input_data = input_data[dummy_cols]
