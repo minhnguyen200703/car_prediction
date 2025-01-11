@@ -18,11 +18,11 @@ class CarModel(BaseModel):
     type: str
 
 # Load the trained model and scaler
-model = joblib.load('baseline_mlp.joblib')
-scaler = joblib.load('scaler.joblib')
+model = joblib.load('./data/baseline_mlp.joblib')
+scaler = joblib.load('./data/scaler.joblib')
 
 # Load dummy columns for categorical features
-with open("dummy_cols.txt", "r", encoding="utf-8") as f:
+with open("./data/dummy_cols.txt", "r", encoding="utf-8") as f:
     dummy_cols = [line.strip() for line in f]
 
 # Define categorical columns
