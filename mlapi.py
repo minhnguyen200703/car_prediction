@@ -48,10 +48,11 @@ async def scoring_endpoint(car: CarModel):
 
     # Set the corresponding dummy columns to 1 (True) based on the input
     for col in categorical_cols:
-        feature_value = input_data[col].iloc[0]  # Get the input value for the feature
-        dummy_col_name = f"{col}_{feature_value}"  # Construct the dummy column name
-        if dummy_col_name in dummy_cols:
-            input_data[dummy_col_name] = 1  # Set the correct dummy column to 1
+        if col in input_data.columns:  # Ensure the column exists in input_data
+            feature_value = input_data[col].iloc[0]
+            dummy_col_name = f"{col}_{feature_value}"
+            if dummy_col_name in dummy_cols:
+                input_data[dummy_col_name] = 1
 
     # Reorder columns to match the training data
     input_data = input_data.reindex(columns=dummy_cols, fill_value=0)
@@ -65,4 +66,5 @@ async def scoring_endpoint(car: CarModel):
 
     # Return the prediction as JSON
     return {"prediction": float(yhat)}
+
 
