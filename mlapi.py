@@ -26,7 +26,7 @@ with open("dummy_cols.txt", "r", encoding="utf-8") as f:
     dummy_cols = [line.strip() for line in f]
 
 # Define categorical columns
-categorical_cols = ['brand', 'fuel', 'color', 'gearbox', 'type']
+categorical_cols = ['brand', 'model', 'origin', 'type', 'gearbox', 'fuel', 'color', 'condition']
 
 @app.post("/")
 async def scoring_endpoint(car: CarModel):
@@ -48,7 +48,7 @@ async def scoring_endpoint(car: CarModel):
     # Ensure all dummy columns exist in the input data
     for col in dummy_cols:
         if col not in input_data.columns:
-            input_data[col] = 0
+            input_data[col] = False
 
     # Reorder columns to match training data
     input_data = input_data[dummy_cols]
