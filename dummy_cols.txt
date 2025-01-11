@@ -1,0 +1,344 @@
+manufacture_date
+seats
+mileage_v2
+price
+car_age
+brand_Chevrolet
+brand_Ford
+brand_Honda
+brand_Hyundai
+brand_Kia
+brand_Mazda
+brand_Mercedes Benz
+brand_Mitsubishi
+brand_Suzuki
+brand_Toyota
+brand_Vinfast
+model_1083
+model_190
+model_2
+model_2 Series
+model_3
+model_3 Series
+model_3000GT
+model_323
+model_4 Runner
+model_4 Series
+model_5
+model_5 Series
+model_6
+model_6 Series
+model_626
+model_7 Series
+model_86
+model_929
+model_A Class
+model_AMG
+model_APV
+model_Accent
+model_Accord
+model_Acononline
+model_Aerio
+model_Alphard
+model_Alto
+model_Aristo
+model_Aspire
+model_Astro
+model_Atenza
+model_Atos
+model_Attrage
+model_Aurion
+model_Avalon
+model_Avante
+model_Avanza
+model_Aveo
+model_Aygo
+model_Azera
+model_B Class
+model_BR-V
+model_BT 50
+model_Balenno
+model_Brio
+model_C Class
+model_CD5
+model_CL Class
+model_CLA Class
+model_CLK Class
+model_CLS Class
+model_CR V
+model_CR X
+model_CX 3
+model_CX 5
+model_CX 8
+model_CX 9
+model_CX-30
+model_Cadenza
+model_Caldina
+model_Camaro
+model_Cami
+model_Camry
+model_Captiva
+model_Caravan
+model_Carens
+model_Carnival
+model_Cavalier
+model_Celerio
+model_Celica
+model_Centennial
+model_Century
+model_Cerato
+model_Cerato Koup
+model_Challenger
+model_Chevyvan
+model_Ciaz
+model_City
+model_Civic
+model_Click
+model_Colorado
+model_Colt
+model_Concord
+model_Contour
+model_Corolla
+model_Corolla Altis
+model_Corolla Cross
+model_Corona
+model_County
+model_Coupe
+model_Cressida
+model_Creta
+model_Crown
+model_Cruze
+model_Cultis wagon
+model_Diamante
+model_Dòng khác
+model_E Class
+model_Eclipse
+model_EcoSport
+model_Elantra
+model_Enterprise
+model_Eon
+model_Ertiga
+model_Escape
+model_Escort
+model_Everest
+model_Explorer
+model_F 150
+model_F 350
+model_Fadil
+model_Fiesta
+model_Fj cruiser
+model_Focus
+model_Focus C Max
+model_Forte
+model_Fortuner
+model_Fucion
+model_G Class
+model_GL Class
+model_GLA Class
+model_GLB
+model_GLC
+model_GLC Class
+model_GLE Class
+model_GLK Class
+model_GLS Class
+model_GT Coupe
+model_Galant
+model_Galloper
+model_Genesis
+model_Getz
+model_Gold
+model_Grand Starex
+model_Grand i10
+model_Grand vitara
+model_Grandeur
+model_Grandis
+model_Grunder
+model_H 1
+model_HR-V
+model_Hiace
+model_Highlander
+model_Hilux
+model_IQ
+model_Innova
+model_Innova Cross
+model_Ioniq 5
+model_Jazz
+model_Jolie
+model_K3
+model_K5
+model_Ka
+model_Kona
+model_L300
+model_Lacetti
+model_Lancer
+model_Land Cruiser
+model_Land Cruiser Prado
+model_Lantra
+model_Laser
+model_Legend
+model_Libero
+model_Liteace
+model_Lumina
+model_Lux A2.0
+model_Lux SA2.0
+model_M Class
+model_M couper
+model_M3
+model_M6
+model_MB
+model_ML Class
+model_MX 3
+model_MX 6
+model_Magentis
+model_Matiz
+model_Maybach
+model_Mighty
+model_Mirage
+model_Mondeo
+model_Morning
+model_Mustang
+model_NSX
+model_Nubira
+model_Odyssey
+model_Optima
+model_Orlando
+model_Outlander
+model_Outlander Sport
+model_Pajero
+model_Pajero Sport
+model_Picanto
+model_Pilot
+model_Potentia
+model_Prado
+model_Pregio
+model_Premacy
+model_Previa
+model_Pride
+model_Prius
+model_Quoris
+model_R Class
+model_RAV4
+model_Raize
+model_Ranger
+model_Rio
+model_Rondo
+model_Rush
+model_S 10
+model_S Class
+model_SLK Class
+model_SSR
+model_Samirai
+model_Santa Fe
+model_Sedona
+model_Seltos
+model_Sephia
+model_Sequoia
+model_Sienna
+model_Solara
+model_Solati
+model_Soluto
+model_Sonata
+model_Sonet
+model_Sorento
+model_Sota
+model_Soul
+model_Spark
+model_Spectra
+model_Sportage
+model_Sprinter
+model_Starex
+model_Stargazer
+model_Swift
+model_Tercel
+model_Terracan
+model_Territory
+model_Tiburon
+model_Tourneo
+model_Trailblazer
+model_Trajet
+model_Transit
+model_Trax
+model_Tribute
+model_Triton
+model_Tucson
+model_Tundra
+model_Tuscani
+model_Universe
+model_Universe Xpress Luxury
+model_V Class
+model_VF5
+model_VF8
+model_VF9
+model_VFe34
+model_Veloster
+model_Veloz
+model_Veloz Cross
+model_Venza
+model_Veracruz
+model_Verna
+model_Vigor
+model_Vios
+model_Vista
+model_Vitara
+model_Vito
+model_Vivant
+model_Wagon R+
+model_Wigo
+model_Wind star
+model_Wish
+model_X1
+model_X2
+model_X3
+model_X4
+model_X5
+model_X6
+model_X7
+model_XG
+model_XL 7
+model_Xpander
+model_Xpander Cross
+model_Yaris
+model_Yaris Verso
+model_Z4
+model_Z4 Roadster
+model_Zace
+model_Zinger
+model_eMighty
+model_i20
+model_i3
+model_i30
+model_i8
+origin_Mỹ
+origin_Nhật Bản
+origin_Nước khác
+origin_Thái Lan
+origin_Trung Quốc
+origin_Việt Nam
+origin_Đài Loan
+origin_Đức
+origin_Ấn Độ
+type_hatchback
+type_kiểu dáng khác
+type_minivan (mpv)
+type_mui trần
+type_pick-up (bán tải)
+type_sedan
+type_suv / cross over
+type_van
+gearbox_AT
+gearbox_MT
+gearbox_UNKNOWN
+fuel_hybrid
+fuel_oil
+fuel_petrol
+color_blue
+color_brown
+color_gold
+color_green
+color_grey
+color_orange
+color_others
+color_pink
+color_red
+color_silver
+color_white
