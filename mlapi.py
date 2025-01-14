@@ -355,8 +355,21 @@ class CarModel(BaseModel):
     color_silver: bool
     color_white: bool
 
+<<<<<<< HEAD
 # Load the trained model
 model = joblib.load('./model/baseline_mlp.pkl')
+=======
+# Load the trained model and scaler
+model = joblib.load('baseline_mlp.joblib')
+scaler = joblib.load('scaler.joblib')
+
+# Load dummy columns for categorical features
+with open("dummy_cols.txt", "r", encoding="utf-8") as f:
+    dummy_cols = [line.strip() for line in f]
+
+# Define categorical columns
+categorical_cols = ['brand', 'model', 'origin', 'type', 'gearbox', 'fuel', 'color', 'condition']
+>>>>>>> parent of 49e51d4 (Final format)
 
 @app.post("/")
 async def scoring_endpoint(car: CarModel):
